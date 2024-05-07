@@ -14,8 +14,8 @@ export const state = () => ({
         hide: [],
         favorites: [],
         hideCategory: false,
-        hidePay: false,
-        hideNotice: false,
+        hidePay: true,
+        hideNotice: true,
         css: '',
         js: '',
         inNewTab: null,
@@ -32,7 +32,7 @@ export const state = () => ({
         }
     },
     globalLoading: false,
-    welcome: true,
+    welcome: false,
     isMobile: {},
     env: env,
     syncTime: 0
